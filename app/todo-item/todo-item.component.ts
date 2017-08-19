@@ -14,9 +14,9 @@ export class TodoItemComponent {
 	
 	toggle() {
 		this.todo.completed = !this.todo.completed;
-	},
+	};
 	
 	onDelete() {
 		this.delete.emit(this.todo);		
-	}
+	};
 }
